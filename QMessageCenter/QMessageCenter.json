@@ -1,0 +1,18 @@
+﻿{
+  "Name": "QMessageCenter",
+  "Version": "0.0.0",
+  "CompatVersion": "0.0.0",
+  "Experimental": true,
+  "DisabledByDefault": false,
+  "Required": true,
+  "Interface": "PluginInterface",
+  "Descriptions": {
+    "Category": "Test",
+    "Vendor": "CN",
+    "Copyright": "CN",
+    "License": "MIT",
+    "Description": "消息转发中心插件",
+    "LongDescription": "消息转发中心插件",
+    "Url": "https://hiyj.cn"
+  }
+}
