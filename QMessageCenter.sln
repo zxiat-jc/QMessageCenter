@@ -5,6 +5,14 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QMessageCenter", "QMessageCenter\QMessageCenter.vcxproj", "{5B3DE252-EA68-44E3-B783-5F63CD920B15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QEntity", "..\QEntity\QEntity\QEntity.vcxproj", "{4BA0D4BE-9916-4CFE-A924-EDF4FF08FEDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QEntityMath", "..\QEntity\QEntityMath\QEntityMath.vcxproj", "{6CF135AC-3456-46E5-A6DC-CAF35871694B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QPluginInterface", "..\QPluginManager\QPluginInterface\QPluginInterface.vcxproj", "{6109245D-0476-4A22-BA69-B38175E32B29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QPluginManager", "..\QPluginManager\QPluginManager\QPluginManager.vcxproj", "{EA98EF0F-BDFE-47C3-8D37-60203985DAF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +23,22 @@ Global
 		{5B3DE252-EA68-44E3-B783-5F63CD920B15}.Debug|x64.Build.0 = Debug|x64
 		{5B3DE252-EA68-44E3-B783-5F63CD920B15}.Release|x64.ActiveCfg = Release|x64
 		{5B3DE252-EA68-44E3-B783-5F63CD920B15}.Release|x64.Build.0 = Release|x64
+		{4BA0D4BE-9916-4CFE-A924-EDF4FF08FEDA}.Debug|x64.ActiveCfg = Debug|x64
+		{4BA0D4BE-9916-4CFE-A924-EDF4FF08FEDA}.Debug|x64.Build.0 = Debug|x64
+		{4BA0D4BE-9916-4CFE-A924-EDF4FF08FEDA}.Release|x64.ActiveCfg = Release|x64
+		{4BA0D4BE-9916-4CFE-A924-EDF4FF08FEDA}.Release|x64.Build.0 = Release|x64
+		{6CF135AC-3456-46E5-A6DC-CAF35871694B}.Debug|x64.ActiveCfg = Debug|x64
+		{6CF135AC-3456-46E5-A6DC-CAF35871694B}.Debug|x64.Build.0 = Debug|x64
+		{6CF135AC-3456-46E5-A6DC-CAF35871694B}.Release|x64.ActiveCfg = Release|x64
+		{6CF135AC-3456-46E5-A6DC-CAF35871694B}.Release|x64.Build.0 = Release|x64
+		{6109245D-0476-4A22-BA69-B38175E32B29}.Debug|x64.ActiveCfg = Debug|x64
+		{6109245D-0476-4A22-BA69-B38175E32B29}.Debug|x64.Build.0 = Debug|x64
+		{6109245D-0476-4A22-BA69-B38175E32B29}.Release|x64.ActiveCfg = Release|x64
+		{6109245D-0476-4A22-BA69-B38175E32B29}.Release|x64.Build.0 = Release|x64
+		{EA98EF0F-BDFE-47C3-8D37-60203985DAF9}.Debug|x64.ActiveCfg = Debug|x64
+		{EA98EF0F-BDFE-47C3-8D37-60203985DAF9}.Debug|x64.Build.0 = Debug|x64
+		{EA98EF0F-BDFE-47C3-8D37-60203985DAF9}.Release|x64.ActiveCfg = Release|x64
+		{EA98EF0F-BDFE-47C3-8D37-60203985DAF9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
