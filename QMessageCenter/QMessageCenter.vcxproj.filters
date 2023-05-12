@@ -54,6 +54,9 @@
     <QtMoc Include="QMessageCenterImpl.h">
       <Filter>Header Files\impl</Filter>
     </QtMoc>
+    <QtMoc Include="Message.h">
+      <Filter>Header Files\interface</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <None Include="QMessageCenter.json">

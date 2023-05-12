@@ -103,15 +103,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="QMessageCenterImpl.cpp" />
+    <QtMoc Include="Message.h" />
     <ClInclude Include="QMessageCenter_global.h" />
     <ClInclude Include="QMessageCenter.h" />
     <ClCompile Include="QMessageCenter.cpp" />
     <QtMoc Include="QMessageCenterImpl.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\QEntity\QEntity\QEntity.vcxproj">
-      <Project>{4ba0d4be-9916-4cfe-a924-edf4ff08feda}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\QPluginManager\QPluginInterface\QPluginInterface.vcxproj">
       <Project>{6109245d-0476-4a22-ba69-b38175e32b29}</Project>
     </ProjectReference>
