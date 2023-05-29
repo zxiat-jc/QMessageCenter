@@ -42,7 +42,7 @@ public:
      * @brief 携带数据共享智能指针,零引用时自动释放
      * @return QSharedDataPointer{data}
      */
-    inline QSharedPointer<QObject> rData()
+    inline QSharedPointer<QObject> rData() const
     {
         return _rData;
     }
