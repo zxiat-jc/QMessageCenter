@@ -98,11 +98,11 @@
     <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Qt5Debug|x64'">
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\Qt5$(ProjectName)\</OutDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\$(ProjectName)Qt5\</OutDir>
     <PublicIncludeDirectories>..\QMessageCenter</PublicIncludeDirectories>
     <AllProjectIncludesArePublic>true</AllProjectIncludesArePublic>
     <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
-    <TargetName>Qt5$(ProjectName)</TargetName>
+    <TargetName>$(ProjectName)Qt5</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <PublicIncludeDirectories>..\QMessageCenter</PublicIncludeDirectories>
@@ -114,8 +114,8 @@
     <PublicIncludeDirectories>..\QMessageCenter</PublicIncludeDirectories>
     <AllProjectIncludesArePublic>true</AllProjectIncludesArePublic>
     <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\Qt5$(ProjectName)\</OutDir>
-    <TargetName>Qt5$(ProjectName)</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\$(ProjectName)Qt5\</OutDir>
+    <TargetName>$(ProjectName)Qt5</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
