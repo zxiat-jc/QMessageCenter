@@ -6,6 +6,10 @@
 
 class Message {
 public:
+    inline explicit Message()
+    {
+    }
+
     inline explicit Message(const QString& type, QPointer<QObject> from, QSharedPointer<QObject> rData)
         : _type(type)
         , _from(from)
