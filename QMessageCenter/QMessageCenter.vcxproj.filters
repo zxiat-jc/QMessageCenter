@@ -41,6 +41,9 @@
     <ClInclude Include="QMessageCenter_global.h">
       <Filter>Header Files\interface</Filter>
     </ClInclude>
+    <ClInclude Include="PackageMessage.h">
+      <Filter>Header Files\interface</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QMessageCenter.cpp">
