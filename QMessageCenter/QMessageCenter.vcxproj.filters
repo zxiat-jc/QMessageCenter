@@ -44,6 +44,9 @@
     <ClInclude Include="PackageMessage.h">
       <Filter>Header Files\interface</Filter>
     </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\interface</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QMessageCenter.cpp">
@@ -56,9 +59,6 @@
   <ItemGroup>
     <QtMoc Include="QMessageCenterImpl.h">
       <Filter>Header Files\impl</Filter>
-    </QtMoc>
-    <QtMoc Include="Message.h">
-      <Filter>Header Files\interface</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>

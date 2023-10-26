@@ -191,7 +191,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="QMessageCenterImpl.cpp" />
-    <QtMoc Include="Message.h" />
+    <ClInclude Include="Message.h" />
     <ClInclude Include="PackageMessage.h" />
     <ClInclude Include="QMessageCenter_global.h" />
     <ClInclude Include="QMessageCenter.h" />
