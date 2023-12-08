@@ -7,6 +7,10 @@
 class Message {
 public:
     inline explicit Message()
+        : _type("")
+        , _from(nullptr)
+        , _rData(nullptr)
+        , _data(nullptr)
     {
     }
 
@@ -84,20 +88,20 @@ protected:
     /**
      * @brief  来源QObject
      */
-    QPointer<QObject> _from;
+    QPointer<QObject> _from = nullptr;
 
     /**
      * @brief 携带数据
      */
-    QSharedPointer<QObject> _rData;
+    QSharedPointer<QObject> _rData = nullptr;
 
     /**
      * @brief 携带数据
      */
-    QObject* _data;
+    QObject* _data = nullptr;
 
     /**
      * @brief 消息类型
      */
-    QString _type;
+    QString _type {};
 };
