@@ -192,7 +192,7 @@
   <ItemGroup>
     <ClCompile Include="QMessageCenterImpl.cpp" />
     <ClInclude Include="Message.h" />
-    <ClInclude Include="PackageMessage.h" />
+    <ClInclude Include="Package.h" />
     <ClInclude Include="QMessageCenter_global.h" />
     <ClInclude Include="QMessageCenter.h" />
     <ClCompile Include="QMessageCenter.cpp" />
