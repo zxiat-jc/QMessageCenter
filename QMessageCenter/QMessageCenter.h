@@ -5,7 +5,11 @@
 #include "Message.h"
 #include "PluginInterface.h"
 
-class QMESSAGECENTER_EXPORT QMessageCenter : public PluginInterface {
+#ifndef MESSAGE_CENTER
+#define MESSAGE_CENTER []() { auto&& opt = GetPluginPtr(QMessageCenter);return opt.value(); }()
+#endif
+
+class QMessageCenter : public PluginInterface {
 public:
     virtual ~QMessageCenter() = 0;
 
