@@ -96,6 +96,7 @@
     <PublicIncludeDirectories>..\QMessageCenter</PublicIncludeDirectories>
     <AllProjectIncludesArePublic>true</AllProjectIncludesArePublic>
     <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Qt5Debug|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\$(ProjectName)Qt5\</OutDir>
@@ -111,6 +112,7 @@
     <AllProjectIncludesArePublic>true</AllProjectIncludesArePublic>
     <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\plugins\$(ProjectName)\</OutDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Qt5Release|x64'">
     <PublicIncludeDirectories>..\QMessageCenter</PublicIncludeDirectories>
@@ -124,6 +126,7 @@
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnabled>false</VcpkgEnabled>
+    <VcpkgXUseBuiltInApplocalDeps>true</VcpkgXUseBuiltInApplocalDeps>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
